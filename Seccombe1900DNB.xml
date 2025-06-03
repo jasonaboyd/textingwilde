@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI
+  xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="original" level="a">Wilde, Oscar O'Flahertie Wills (1856-1900)</title>
+        <title type="original" level="m">Dictionary of National Biography Supplement</title>
+        <title type="digital">A Texting Wilde Project Digital Edition</title>
+        <author>Seccombe, Thomas</author>
+        <principal>Jason A. Boyd, Director, Texting Wilde Project (TWP)</principal>
+        <funder>Office of the Dean of Arts, Ryerson University, Toronto, Ontario, Canada</funder>
+        <funder>Social Sciences and Humanities Research Council of Canada (SSHRC)</funder>
+        <respStmt><resp>edited and encoded by</resp><name>Jason Boyd</name></respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Version 3 <!--this should be the version number of the TWP Encoding Guideline that was used-->, <!--date--></edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Texting Wilde Project</publisher>
+        <address><addrLine><!--project URL--></addrLine></address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported</licence> 
+        </availability>
+        <date><!--date of publication--></date>
+      </publicationStmt>
+      <seriesStmt>
+        <p>Machine readable texts for the study of pre-1945 Oscar Wilde biography.</p>
+        <p><name>Jason A. Boyd</name>, General Editor, Contriving Wilde Project</p>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier n="https://archive.org/details/p3dictionaryofna01leesuoft/page/n525"/>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <author>
+              <surname>Seccombe</surname>
+              <forename>Thomas</forename>
+              <note>Signed T.S.: See List of Writers, pp.v-vi</note>
+            </author>
+            <title level="a">Wilde, Oscar O'Flaherie Wills (1856-1900)</title>
+          </analytic>
+          <monogr>
+            <title type="main" level="m">Dictionary of National Biography Supplement, </title>
+            <title type="sub" level="m">Vol. III, How--Woodward</title>
+            <editor>
+                <surname>Lee</surname>, 
+                <forename>Sidney</forename>
+            </editor>
+            <imprint>
+              <pubPlace>New York</pubPlace>
+              <publisher>The Macmillan Company</publisher>
+              <pubPlace>London</pubPlace>
+              <publisher>Smith, Elder, &amp; Co</publisher>
+              <date>1901</date>
+            </imprint>
+            <biblScope unit="pp">513-515</biblScope><!--for excerpts or a work in a collection-->
+          </monogr>
+          <relatedItem xml:id="CORPUS_ID" type="other_edition">
+              <!--If other (generally later) editions exist and can be compared, and if the differences are minor, then a <monogr> record can be created for the edition
+                (see above) and <note> can be used to describe the differences-->
+          </relatedItem>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Texting Wilde Project's aim is prepare machine-readable versions of pre-1945 biographical
+        texts relating to Oscar Wilde for large-scale analysis.</p>
+      </projectDesc>
+      <editorialDecl>
+        <quotation marks="none">
+          <p>All quotation marks in the original have been removed.</p>
+          <p>Text quoted from an external source and enclosed in quotation marks have been replaced by <gi>quote</gi> tags. The default assumption is that
+            quotations are enclosed in double quotation marks; if they are enclosed in single quotation marks, <att>rend</att> with <val>sq</val>
+            (single quotation marks) is used.</p>
+          <p>Reported direct speech enclosed in quotation marks have been replaced by <gi>said</gi> tags. The default assumption is that
+            direct speech is enclosed in double quotation marks; if it is enclosed in single quotation marks, <att>rend</att> with <val>sq</val>
+            (single quotatation marks) is used.</p>
+          <p>Titles of books, periodicals, etc., enclosed in quotation marks have been replaced by <gi>title</gi> tags, with the
+            <att>rend</att> and <val>dq</val> (double quotation marks) or <val>sq</val> (single quotation marks).</p>
+          <p>Other occurances of quotation marks are replaced with <gi>distinct</gi> and <att>rend</att> and <val>dq</val> or <val>sq</val>.</p>
+          <p>Punctuation within quotation marks that are present due to the punctuation of the main text have not been included within the above elements,
+            even when that punctuation falls within the quotation marks. It has presumed that formatting processing can insert quotations marks after any
+             punctuation immediately following one of these element tags.
+          </p>
+        </quotation>
+        <hyphenation eol="some">
+          <p>Hyphens are retained for all words hyphenated over a page break.</p>
+        </hyphenation>
+        <segmentation>
+          <p><gi>seg</gi> tags with the <att>type</att> attribute with a <val>indented</val> value are used to enclose portions of text that are typgraphically
+            distinguished as parapgraphs (i.e., with the first line indented) but that are being treated a part of (i.e., nested within) a portion of a text that is considered
+            to be a parapgraph in semantic terms (i.e., containing a coherent topic, event, or anecdote) and which is enclosed in <gi>p</gi> tags. 
+          </p>
+          <p><gi>seg</gi> tags are used to enclose multiple <gi>said</gi> units that form a single unit of speech
+          or conversation. <att>type</att> is used with the values of <val>said</val> (for a speech by an individual)
+          or <val>conversation</val> for an exchange between two or more people.</p>
+        </segmentation>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2013-06-19" who="#JAB001">teiHeader template created</change>
+        <change when="2019-06-24" who="#JAB001">Revised: Defined how <gi>editionStmt</gi>is to be used; added <gi>relatedItem</gi>
+          in <gi>sourceDesc</gi>; deleted use of <gi>soCalled</gi> and <gi>hi</gi> <att>rend</att> <val>sq</val> or <val>dq</val> and
+          replaced it with <gi>distinct</gi> in <gi>quotation</gi>
+        </change>
+        <change when="2019-01-01" who="#"></change><!--record completion of passes and any changes post-publication-->
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front><gap reason="omitted"/></front>
+    <body>
+      
+      <gap reason="omitted"/>
+      
+      <pb n="513"/>
+      <!--Wilde 513 Wilde-->  
+        <cb n="1"/>
+      
+          <gap reason="omitted"/>
+          
+          <p xml:id="Seccombe1900DNB_p001">
+            WILDE, OSCAR O'FLAHERTIE WILLS (1856-1900), wit and dramatist, 
+            born in Dublin on 15 Oct. 1856, was the 
+            younger son of Sir William Robert Wills 
+            Wilde [q. v.], who married, in 1851, Jane 
+            Francisca Elgee (<hi rend="italic">d</hi>. 1896), a granddaughter 
+            of Archdeacon Elgee of Wexford [see under 
+            WILDE, SIR W. R. W.] Oscar Wilde's elder 
+            brother, William Charles Kingsbury Wilde 
+            (1853-1899), a journalist, who wrote much 
+            for the ‘World’ and the ‘Daily Telegraph,’ 
+            died in London in March 1899. His mother, 
+            who wrote under the signature ‘Speranza,’ 
+            had a literary salon at Dublin, where much 
+            clever talk was listened to by the children.
+          </p>
+          <p xml:id="Seccombe1900DNB_p002">
+            After education at Portora royal school, 
+            Enniskillen, Oscar Wilde studied during 
+            1873-4 at Trinity College, Dublin, where he 
+            won the Berkeley gold medal with an essay 
+            on the Greek comic poets. He matriculated 
+            from Magdalen College, Oxford, 17 Oct. 
+            1874, holding a demyship at Magdalen from 
+            1874 to 1879, and graduating B.A. in 1878. 
+            In 1877, during a vacation ramble, he visited 
+            Ravenna and Greece, in company with Professor Mahaffy, and in June 1878 he won the 
+            Newdigate prize with a poem on ‘Ravenna.’ 
+            He was greatly impressed by Florence and 
+            by the lectures of Ruskin, spending several 
+            whole days in breaking stones upon the road 
+            which the professor projected near Oxford. 
+            He had from his youth a strong antipathy 
+            to games, though he was fond of riding. 
+            His precocity, both physical and mental, 
+            was exceptional, and while still at Magdalen 
+            he excogitated his aesthetic philosophy of 
+            ‘Art for Art's sake,’ of which he was recognised at once as the apostle, and
+            enunciated the aspiration that he might be able 
+            to live up to his blue china. His rooms, over-looking the Cherwell, were notorious for their 
+            exotic splendour, and Wilde's bric-&#xe0;-brac was 
+            the object of several philistine outrages. 
+            
+            <!--VOL. III.&x2014;SUP.--> 
+            
+        <cb n="2"/>
+            
+            The abuse of foes and the absurdities of 
+            friends alike furnished material for persiflage. His wit was undoubted, and he 
+            successfully cultivated the reputation (not 
+            wholly deserved) of being a complete idler. 
+            He had a natural aptitude for classical 
+            studies, and he obtained with ease a 
+            first-class both in classical moderations 
+            (1876) and in <foreign>liter&#xe6; humaniores</foreign> (1878). He 
+            had already written poems, marked by 
+            strange affectations, but with a classical 
+            finish and an occasional felicity of detail. 
+            These had appeared in the ‘Month,’ the 
+            ‘Catholic Mirror,’ the ‘Irish Monthly,’ 
+            ‘Kottabos,’ and in the first number of 
+            Edmund Yates's periodical called ‘Time.’ 
+            A selection of these juvenile pieces was 
+            printed in 1881 as ‘Poems by Oscar Wilde’ 
+            (reprinted in New York, 1882). On leaving 
+            Oxford Wilde was already a well-known 
+            figure and a favourite subject for caricature 
+            (notably in ‘Punch,’ and later as Bunthorne 
+            in Gilbert and Sullivan's comic opera, 
+            ‘Patience’). He was recognised as the 
+            founder of the aesthetic cult, the symbols of 
+            which were peacocks' feathers, sunflowers, 
+            dados, and blue china, long hair, and velveteen breeches. His sayings were passed from 
+            mouth to mouth as those of one of the professed wits of the age. His fame crossed 
+            the Atlantic, and in 1882 he made a tour 
+            through the United States, lecturing two 
+            hundred times in such cities as New York, 
+            Boston, and Chicago, upon ‘&#xc6;sthetic Philosophy,’ and meeting with great, though not 
+            unvaried, success. The paradoxical nature 
+            of his utterances at times excited disgust. 
+            A cablegram to England expressed his ‘disappointment’ with the Atlantic, and he 
+            finally came to the conclusion that the English ‘have really everything in common with 
+            the Americans&#x2014;except, of course, language.’ 
+            A drama by him, called ‘Vera,’ was produced in New York during his stay then in 
+            1882.
+          </p>
+          <p xml:id="Seccombe1900DNB_p003">
+            For five or six years after his return from 
+            America Wilde resided chiefly in London in 
+            comparative privacy, but paid frequent visits 
+            to Paris and travelled on the continent. In 
+            1884 he married Constance, daughter of 
+            Horace Lloyd, Q.C., and in 1888 he com- 
+            menced a period of literary activity, which 
+            was progressive until the collapse of his 
+            career in 1895. This period opened with 
+            ‘The Happy Prince and other Tales’ (1888, 
+            illustrated by Walter Crane and Jacomb 
+            Hood), a volume of charming fairy tales 
+            with a piquant touch of contemporary satire. 
+            In 1891 appeared ‘Lord Arthur Savile’s 
+            Crime, and other Stories’ and ‘The Picture 
+            of Dorian Gray.’ The novel last mentioned, 
+            
+            <!--L. L.--> 
+            
+      <pb n="514"/>
+      <!--Wilde 514 Wilde-->
+            
+        <cb n="1"/>
+            
+            which was first published in ‘Lippincott's 
+            Magazine,’ was full of subtle impressionism 
+            and highly wrought epigram, but owed notoriety to an undercurrent of very disagreeable 
+            suggestion. A ‘Preface to Dorian Gray,’ 
+            concluding ‘All Art is quite useless,’ appeared separately in the ‘Fortnightly Review’ (March 1891).
+            In the previous number of the ‘Review’ readers had been more 
+            than ever bewildered by Wilde's exceptionally brilliant plea for socialism, on the ground 
+            that it would relieve us of ‘the sordid necessity of living for others.’ Later in the same 
+            year Wilde reprinted some ‘literary wild 
+            oats’ under the title ‘Intentions’ (three contributions to leading reviews). One of these, 
+            on ‘Masks,’ revealed an intimate knowledge 
+            of Shakespeare. ‘A House of Pomegranates’ 
+            (more fairy tales), 1892, was taken in the 
+            main at the author's valuation as ‘intended 
+            neither for the British child nor the British 
+            public.’
+          </p>
+          <p xml:id="Seccombe1900DNB_p004">
+            Meanwhile in 1891 a blank-verse tragedy 
+            by Wilde, called ‘The Duchess of Padua.’ 
+            was produced in New York, and subsequently he found a more profitable mode 
+            of expression for his literary abilities in 
+            light comedies, which, despite his very narrow 
+            experience of modern stage conditions, were 
+            remarkable equally for theatrical and for 
+            literary skill. His first light comedy, ‘Lady 
+            Windermere's Fan,’ was produced at the St. 
+            James's Theatre on 20 Feb. 1892, and was 
+            printed next year. It was full of saucy 
+            repartee and overdone with epigram of the 
+            pattern peculiar to the author, namely, the 
+            inverted proverb, but it made a hit. It was 
+            followed at the Haymarket Theatre in April 
+            1893 by ‘A Woman of no Importance,’ a 
+            drama of a similar kind, to the theatrical 
+            success of which the fine acting of Mr. Tree 
+            and Mrs. Bernard Beere greatly contributed 
+            (printed 1894, 4to).
+          </p>
+          <p xml:id="Seccombe1900DNB_p005">
+            In the summer of 1893 the licenser of 
+            plays refused to sanction the performance of 
+            ‘Salom&#xe9;,’ a play of more serious character, 
+            written in French. This was a marvel of 
+            mimetic power, which owed most perhaps to 
+            Flaubert's ‘Herodias;’ it was printed as 
+            ‘Salom&#xe9;, Drame en un acte’ (1893, 4to), and 
+            was rendered into English by Wilde's friend, 
+            Lord Alfred Douglas, in 1894 (London, 4to; 
+            with ten pictures by Aubrey Beardsley). 
+            The original version was produced by 
+            Madame Sarah Bernhardt in Paris in 1894. 
+            In 1894 was also published ‘The Sphinx’ 
+            (dedicated to Marcel Schwob), a poetical catalogue of
+            ‘amours frequent and free,’ presented in the metre of ‘In Memoriam.’ In 
+            the same year, in a paper entitled ‘Phrases 
+            and Philosophies for the use of the Young,’ 
+            
+        <cb n="2"/>
+            
+            Wilde gave the tone to a magazine called 
+            ‘The Chameleon,’ two numbers of which were 
+            issued at Oxford in a very limited edition. 
+            The tortured paradoxes of the new cult were 
+            effectively parodied in Mr. Hichens's ‘Green 
+            Carnation.’ To the ‘Fortnightly’ of July 
+            1894 Wilde contributed some curious ‘Poems 
+            in Prose.’ He could write English of silken 
+            delicacy, but in his choice of epithets there 
+            are frequently traces of that ‘industry’ which 
+            he denounced as the ‘root of all ugliness.’ 
+            A third comedy, ‘The Ideal Husband,’ was 
+            successfully produced at the Haymarket on 
+            3 Jan. 1895, although it was not printed 
+            until 1899. On 14 Feb. 1895 was given at 
+            the St. James's Theatre a fourth play in the 
+            light vein, ‘The Importance of being Earnest : a trivial comedy for serious people’ 
+            (1899, 4to), an irresistible dramatic trifle, at 
+            once insolent in its levity and exquisite in 
+            its finish. The Victorian era, it may fairly 
+            be said, knew no light comedies which for 
+            brilliant wit, literary finish, or theatrical 
+            dexterity were comparable with Wilde's 
+            handiwork.
+          </p>
+          <p xml:id="Seccombe1900DNB_p006">
+            The manuscript of a poetical drama by 
+            Wilde, entitled ‘A Florentine Tragedy,’ was 
+            stolen from his house in Tite Street in 1895, 
+            together with an enlarged version of an essay 
+            on Shakespeare's sonnets, entitled ‘The History of Mr. W. H.,’
+            of which an outline appeared in ‘Blackwood's Magazine’ in July 
+            1889 (‘The Portrait of Mr. W. H.’)
+          </p>
+          <p xml:id="Seccombe1900DNB_p007">
+            In the month following the successful 
+            production of ‘The Importance of being 
+            Earnest’ Wilde brought, with fatal insolence, 
+            an unsuccessful action for criminal libel 
+            against the Marquis of Queensberry. In the 
+            result he was himself arrested and charged 
+            with offences under the Criminal Law Amendment Act,
+            and being found guilty after a protracted trial at the Old Bailey on 27 May 1895, 
+            he was sentenced by Mr. Justice Wills to 
+            two years' imprisonment with hard labour. 
+            Ruined in fortune as well as in fame, he soon 
+            afterwards passed through the bankruptcy 
+            court. While in prison he wrote a kind of 
+            apology for his life, a manuscript amounting 
+            to about forty-five thousand words, now in 
+            the hands of his literary executor, and also 
+            studied Dante assiduously, contemplating 
+            an essay on ‘The Divine Comedy’ which 
+            should develop a new theory. On 19 May 
+            1897 he was released from prison. Thenceforth his necessities were provided for by a 
+            small annuity purchased by his friends. 
+            After spending some time at Berneval, he 
+            in 1898 made his headquarters at the Hotel 
+            d'Alsace, Paris. While at Berneval he wrote 
+            and issued anonymously in London a powerful
+            ‘Ballad of Reading Gaol’ (1898), the 
+            
+      <pb n="515"/>
+      <!--Willis 515 Willis-->
+            
+        <cb n="1"/>
+            
+            sincerity of which is overlaid by an excess
+            of rhetoric. Thenceforth he wrote nothing. 
+            He adopted the name Sebastian Melmoth&#x2014;Melmoth
+            from the romance of Maturin, a 
+            connection of his mother, Lady Wilde, 
+            Sebastian suggested by the arrows on the 
+            prison dress. He had contributed some information
+            to the 1892 edition of ‘Melmoth the 
+            Wanderer.’
+          </p>
+          <p xml:id="Seccombe1900DNB_p008">
+            After visiting Sicily and Rome in the 
+            spring of 1900, Wilde died of cerebral 
+            meningitis at the Hotel d'Alsace on 30 Nov. 
+            1900. He received the last rites of the 
+            Roman catholic church. Shortly before his
+            death he expressed his conviction that his
+            ‘moral obliquity’ was due to the fact that
+            his father had prevented him from entering
+            the Roman church when he was at Oxford,
+            adding, ‘The artistic side of the church and
+            the fragrance of its teaching would have
+            curbed my degeneracies.’ He was buried in
+            the Bagneux cemetery on 3 Dec., his tomb-
+            stone bearing the inscription: ‘Ci-git Oscar
+            Wilde, poete et auteur dramatique.’ His
+            wife had died in 1896. Two sons&#x2014;Cyril,
+            born in 1885, and Vivian in 1886&#x2014;survived
+            Both parents.
+          </p>
+          <div type="bibliography">
+            <p>
+              [Miles’s Poets of the Century; Steadman’s Victorian Anthology, 1896; Hamilton’s &#xc6;sthetic
+              Movement in England; Young’s Apologia pro
+              Oscar Wilde, 1895; Whistler’s Gentle Art of
+              Making Enemies, 1890, pp. 106-21; Biograph,
+              August 1880; Times, March&#x2014;April 1895, 20 May
+              1897, 1 Dec. 1900; Bookselling, 
+              January 1895; Academy, 18 March 1899; Brit.
+              Mus. Cat.; private information. A set of Oscar
+              Wilde’s Works in 14 vols. (including the Oxford
+              Periodical, The Spirit Lamp, to which he contributed May 1892 to June 1893) fetched 18<hi rend="italic">l</hi>. 5s. in
+              January 1901.]
+            </p>
+            </div> <signed>T.S.</signed>
+            
+            <gap reason="omitted"/>
+      
+      <cb n="2"/>
+      
+            <gap reason="omitted"/>
+      
+      <pb n="515"/>
+      
+            <gap reason="omitted"/>
+    
+    </body>
+    
+    <back><gap reason="omitted"/></back>
+  
+  </text>
+</TEI>
