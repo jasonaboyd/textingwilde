@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI
-  xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -64,7 +62,7 @@
         </biblStruct>
       </sourceDesc>
     </fileDesc>
-    <encodingDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><encodingDesc>
       <projectDesc>
         <p>The Texting Wilde Project's aim is prepare machine-readable versions of pre-1945 biographical
         texts relating to Oscar Wilde for large-scale analysis.</p>
@@ -107,7 +105,7 @@
           in <gi>sourceDesc</gi>; deleted use of <gi>soCalled</gi> and <gi>hi</gi> <att>rend</att> <val>sq</val> or <val>dq</val> and
           replaced it with <gi>distinct</gi> in <gi>quotation</gi>
         </change>
-        <change when="2019-01-01" who="#"></change><!--record completion of passes and any changes post-publication-->
+        <change when="2019-01-01" who="#"/><!--record completion of passes and any changes post-publication-->
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -125,7 +123,7 @@
           
           <p xml:id="Seccombe1900DNB_p001">
             WILDE, OSCAR O'FLAHERTIE WILLS (1856-1900), wit and dramatist, 
-            born in Dublin on 15 Oct. 1856, was the 
+            born in Dublin on <date>15 Oct. 1856</date>, was the 
             younger son of Sir William Robert Wills 
             Wilde [q. v.], who married, in 1851, Jane 
             Francisca Elgee (<hi rend="italic">d</hi>. 1896), a granddaughter 
@@ -163,10 +161,10 @@
             ‘Art for Art's sake,’ of which he was recognised at once as the apostle, and
             enunciated the aspiration that he might be able 
             to live up to his blue china. His rooms, over-looking the Cherwell, were notorious for their 
-            exotic splendour, and Wilde's bric-&#xe0;-brac was 
+            exotic splendour, and Wilde's bric-à-brac was 
             the object of several philistine outrages. 
             
-            <!--VOL. III.&x2014;SUP.--> 
+            <!--VOL. III.&amp;x2014;SUP.--> 
             
         <cb n="2"/>
             
@@ -177,7 +175,7 @@
             He had a natural aptitude for classical 
             studies, and he obtained with ease a 
             first-class both in classical moderations 
-            (1876) and in <foreign>liter&#xe6; humaniores</foreign> (1878). He 
+            (1876) and in <foreign>literæ humaniores</foreign> (1878). He 
             had already written poems, marked by 
             strange affectations, but with a classical 
             finish and an occasional felicity of detail. 
@@ -200,12 +198,12 @@
             the Atlantic, and in 1882 he made a tour 
             through the United States, lecturing two 
             hundred times in such cities as New York, 
-            Boston, and Chicago, upon ‘&#xc6;sthetic Philosophy,’ and meeting with great, though not 
+            Boston, and Chicago, upon ‘Æsthetic Philosophy,’ and meeting with great, though not 
             unvaried, success. The paradoxical nature 
             of his utterances at times excited disgust. 
             A cablegram to England expressed his ‘disappointment’ with the Atlantic, and he 
             finally came to the conclusion that the English ‘have really everything in common with 
-            the Americans&#x2014;except, of course, language.’ 
+            the Americans—except, of course, language.’ 
             A drama by him, called ‘Vera,’ was produced in New York during his stay then in 
             1882.
           </p>
@@ -276,11 +274,11 @@
           <p xml:id="Seccombe1900DNB_p005">
             In the summer of 1893 the licenser of 
             plays refused to sanction the performance of 
-            ‘Salom&#xe9;,’ a play of more serious character, 
+            ‘Salomé,’ a play of more serious character, 
             written in French. This was a marvel of 
             mimetic power, which owed most perhaps to 
             Flaubert's ‘Herodias;’ it was printed as 
-            ‘Salom&#xe9;, Drame en un acte’ (1893, 4to), and 
+            ‘Salomé, Drame en un acte’ (1893, 4to), and 
             was rendered into English by Wilde's friend, 
             Lord Alfred Douglas, in 1894 (London, 4to; 
             with ten pictures by Aubrey Beardsley). 
@@ -363,7 +361,7 @@
             
             sincerity of which is overlaid by an excess
             of rhetoric. Thenceforth he wrote nothing. 
-            He adopted the name Sebastian Melmoth&#x2014;Melmoth
+            He adopted the name Sebastian Melmoth—Melmoth
             from the romance of Maturin, a 
             connection of his mother, Lady Wilde, 
             Sebastian suggested by the arrows on the 
@@ -387,17 +385,17 @@
             the Bagneux cemetery on 3 Dec., his tomb-
             stone bearing the inscription: ‘Ci-git Oscar
             Wilde, poete et auteur dramatique.’ His
-            wife had died in 1896. Two sons&#x2014;Cyril,
-            born in 1885, and Vivian in 1886&#x2014;survived
+            wife had died in 1896. Two sons—Cyril,
+            born in 1885, and Vivian in 1886—survived
             Both parents.
           </p>
           <div type="bibliography">
             <p>
-              [Miles’s Poets of the Century; Steadman’s Victorian Anthology, 1896; Hamilton’s &#xc6;sthetic
+              [Miles’s Poets of the Century; Steadman’s Victorian Anthology, 1896; Hamilton’s Æsthetic
               Movement in England; Young’s Apologia pro
               Oscar Wilde, 1895; Whistler’s Gentle Art of
               Making Enemies, 1890, pp. 106-21; Biograph,
-              August 1880; Times, March&#x2014;April 1895, 20 May
+              August 1880; Times, March—April 1895, 20 May
               1897, 1 Dec. 1900; Bookselling, 
               January 1895; Academy, 18 March 1899; Brit.
               Mus. Cat.; private information. A set of Oscar
