@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="original">The Reminiscences of Lady Dorothy Nevill</title>
+        <title type="digital">Excerpts Relating to Oscar Wilde: A Texting Wilde Project Digital Edition</title>
+        <author>Nevill, Dorothy</author>
+        <principal>Jason A. Boyd, Director, Texting Wilde Project (TWP)</principal>
+        <funder>Office of the Dean of Arts, Ryerson University, Toronto, Ontario, Canada</funder>
+        <funder>Social Sciences and Humanities Research Council of Canada (SSHRC)</funder>
+        <respStmt><resp>edited and encoded by</resp><name>Jason Boyd</name></respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Version <!--number-->, <!--date--></edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Texting Wilde Project</publisher>
+        <address><addrLine><!--project URL--></addrLine></address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported</licence> 
+        </availability>
+        <date><!--date of publication--></date>
+      </publicationStmt>
+      <seriesStmt>
+        <p>Machine readable texts for the study of pre-1945 Oscar Wilde biography.</p>
+        <p><name>Jason A. Boyd</name>, General Editor, Contriving Wilde Project</p>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier n="http://archive.org/details/reminiscencesla01nevigoog"/>
+        </msDesc>
+        <biblStruct>
+          <monogr>
+            <author> 
+              <persName>
+                <surname>Nevill</surname>, 
+                <forename type="first">Dorothy</forename>
+              </persName>
+            </author>
+            <editor>
+              <persName>
+                <surname>Nevill</surname>,
+                <forename>Ralph</forename>
+              </persName>
+            </editor>
+            <title type="main">The Reminiscences of Lady Dorothy Nevill</title>
+            <imprint>
+              <pubPlace>London</pubPlace>
+              <publisher>Edward Arnold</publisher>
+              <date>1906</date>
+            </imprint>
+            <biblScope unit="pp">273, 277-8</biblScope>
+            <extent>358 ([1-4, 5(half-title), 6-7, 8(portrait)] + i-xiv + 1-336[includes Index]) + advertisements [pp 1-14]</extent>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Texting Wilde Project's aim is prepare machine-readable versions of pre-1945 biographical
+          texts relating to Oscar Wilde for large-scale analysis.</p>
+      </projectDesc>
+      <editorialDecl>
+        <quotation marks="all">
+          <p>All quotation marks have been retained. However, TEI markup has been applied (within quotation marks) to
+            material within quotation marks, using <gi>said</gi> or <gi>quote</gi>. Titles of books, periodicals, etc.
+            that are enclosed in quotation marks in the original have been enclosed in <gi>title</gi> tags, with the
+            <att>rend</att> attribute and the values <val>dq</val> (for double quotation marks) or <val>sq</val> (for
+            single quotation marks).</p>
+        </quotation>
+        <hyphenation eol="some">
+          <p>Hyphens are retained for all words hyphenated over a page break.</p>
+        </hyphenation>
+        <segmentation>
+          <p><gi>seg</gi> tags are used to enclose multiple <gi>said</gi> units that form a single unit of speech
+            or conversation. <att>type</att> is used with the values of <val>said</val> (for a speech by an individual)
+            or <val>conversation</val> for an exchange between two or more people.</p>
+        </segmentation>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change>teiHeader template created <date when-iso="2013-06-19"/> <persName>Jason Boyd</persName></change>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text>
+    <body>
+      
+      <gap reason="omitted"/>
+      
+      <pb n="273"/>
+      
+      <div type="chapter">
+      
+        <head>
+          <label>CHAPTER XX</label> 
+          <title type="chapter">Mr. Cotter Morison — My friend Mr. Frederic Harrison and his 
+            hatred of war — A charming writer — Sutton Place and its 
+            present possessor — Tennyson and his forgotten road — 
+            Thackeray in society — My blunder — Mr. Edmund Gosse — 
+            His literary powers — Frederick Locker — Mr. Alfred Austin 
+            — A dedication by Austin Dobson — A genial personality — 
+            'Toby, M.P.' — Mr. John Morley.
+          </title>
+        </head>
+        
+      <gap reason="omitted"/>
+      
+      <pb n="277"/>
+        
+      <gap reason="omitted"/>
+        
+      <p xml:id="Nevill1906Reminiscences_p001">Literary people have always
+        greatly attracted <rs type="person" key="NED001">me</rs>. 
+        Amongst many whom I have known I particularly 
+        remember Matthew Arnold, Walter Pater, Froude,
+      
+      <pb n="278"/>
+        
+        Hepworth Dixon (now, I fancy, almost forgotten), 
+        and Ouida, whilst I must not forget that brilliant 
+        writer over whom I think it is best to believe that 
+        a dark cloud of insanity settled — I mean <persName key="TWP_Personography.xml#WIW001">Oscar 
+        Wilde</persName>. He it was who obtained <persName key="ZOE001">Zola</persName>'s autograph 
+        for my birthday-book, on which occasion he wrote 
+        me the following letter:
+      </p>
+      
+      <quote>
+        
+        <floatingText>
+          
+          <body>
+            
+            <opener>
+                <address>
+                  <addrLine><placeName key="BDC001">29, Boulevard des Capucines, Paris,</placeName></addrLine>
+                </address>
+                <salute>
+                  My dear <persName key="DON001"><roleName type="honorific">Lady</roleName> Dorothy</persName>,
+                </salute>
+            </opener>
+            
+            <p xml:id="Nevill1906Reminiscences001.1"><rs type="person" key="OSW01">I</rs> would have answered
+              <rs type="person" key="">your</rs> charming 
+              letter before, but the death of poor dear <persName key="EBL01">Lytton</persName>
+              has quite upset me. We had become during the last 
+              year very great friends, and I had seen him only a 
+              few days before he died, lying in Pauline Borghese's 
+              lovely room at the <placeName key="BEP001">Embassy</placeName>, and full of charm and 
+              grace and tenderness.
+            </p>
+            <p xml:id="Nevill1906Reminiscences001.2"><rs type="person" key="EBL01">His</rs> funeral,
+              in spite of the hideous Protestant 
+              service, was most impressive; the purple-covered 
+              bier with its one laurel wreath being a solemn note 
+              of colour and sadness in the midst of the gorgeous 
+              uniforms of the Ambassadors.
+            </p> 
+            <p xml:id="Nevill1906Reminiscences001.3"><rs type="person" key="EBL01">He</rs> was a man of
+              real artistic temperament. <rs type="person" key="OSW01">I</rs> 
+              had grown to be very fond of him, and he was most 
+              kind always to me.
+            </p> 
+            <p>By all means send <rs type="person" key="">your</rs> book: <rs type="person" key="">I</rs>
+              will get <persName key="EMZ01">Zola</persName>'s 
+              name. Poor <persName key="GDM01">Maupassant</persName> is dying, I fear.
+            </p>
+            
+            <closer>
+              <salute>Believe me, dear Lady Dorothy, 
+                Sincerely yours,</salute>
+              <signed>Oscar Wilde</signed>.
+            </closer>
+            
+          </body>
+        </floatingText>
+      </quote>
+       <gap reason="omitted"/>
+      </div>
+      <gap reason="omitted"/>
+    </body>
+  </text>
+  
+</TEI>

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+     <teiHeader>
+        <fileDesc>
+           <titleStmt>
+              <title type="original">The Dismal Throng</title>
+              <title type="digital">A Texting Wilde Project Digital Edition</title>
+              <author>Buchanan, Robert</author>
+              <principal>Jason A. Boyd, Director, Texting Wilde Project (TWP)</principal>
+              <funder>Office of the Dean of Arts, Ryerson University, Toronto, Ontario, Canada</funder>
+              <funder>Social Sciences and Humanities Research Council of Canada (SSHRC)</funder>
+              <respStmt><resp>edited and encoded by</resp> <name>Jason Boyd</name></respStmt>
+           </titleStmt>
+           <editionStmt>
+              <edition>Version <!--number-->, <!--date--></edition>
+           </editionStmt>
+           <publicationStmt>
+              <publisher>Texting Wilde Project</publisher>
+              <address><addrLine><!--project URL--></addrLine></address>
+              <availability>
+                 <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported</licence> 
+              </availability>
+              <date><!--date of publication--></date>
+           </publicationStmt>
+           <seriesStmt>
+              <p>Machine readable texts for the study of pre-1945 Oscar Wilde biography.</p>
+              <p><name>Jason A. Boyd</name>, General Editor, Contriving Wilde Project</p>
+           </seriesStmt>
+           <sourceDesc>
+              <msDesc>
+                 <msIdentifier n="https://archive.org/details/idlermagazinevo00barrgoog"/>
+              </msDesc>
+              <biblStruct>
+                 <analytic>
+                    <author> 
+                       <persName>
+                          <surname>Buchanan</surname>, 
+                          <forename>Robert</forename>
+                       </persName>
+                    </author>
+                    <title level="a">The Dismal Throng</title>
+                 </analytic>
+                 <monogr>
+                    <title level="j" type="main">The Idler Magazine</title>
+                    <title level="j" type="sub">An Illustrated Monthly</title>
+                    <editor>
+                       <persName>
+                          <surname>Jerome</surname>
+                          <forename type="first">Jerome</forename>
+                          <forename type="middle">K</forename>
+                       </persName>
+                       <persName>
+                          <surname>Barr</surname>
+                          <forename>Robert</forename>
+                       </persName>
+                    </editor>
+                    <imprint>
+                       <pubPlace>London</pubPlace>
+                       <publisher>Chatto and Windus</publisher>
+                       <date>Febuary-July 1893</date>
+                    </imprint>
+                    <biblScope unit="vol">3</biblScope>
+                    <biblScope unit="issue">July 1893</biblScope>
+                    <biblScope unit="pp" from="607" to="612">607-12</biblScope>
+                 </monogr>
+                 <relatedItem>
+                    <bibl>Reprinted (without illustrations, footnotes, or author's note) in The Complete Poetical Works of Robert Buchanan, Vol.II. London:
+                       Chatto and Windus, 1901: 399-400</bibl>
+                    <!--http://www.gutenberg.org/files/25372/25372-h/25372-h.htm#Page_607-->
+                 </relatedItem>
+              </biblStruct>
+           </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+           <projectDesc>
+              <p>The Texting Wilde Project's aim is prepare machine-readable versions of pre-1945 biographical
+                 texts relating to Oscar Wilde for large-scale analysis.</p>
+           </projectDesc>
+           <editorialDecl>
+              <quotation marks="none">
+                 <p>All quotation marks in the original have been removed.</p>
+                 <p>Text quoted from an external source and enclosed in quotation marks have been replaced by <gi>quote</gi> tags. The default assumption is that
+                    quotations are enclosed in double quotation marks; if they are enclosed in single quotation marks, <att>rend</att> with <val>sq</val>
+                    (single quotation marks) is used.</p>
+                 <p>Reported direct speech enclosed in quotation marks have been replaced by <gi>said</gi> tags. The default assumption is that
+                    direct speech is enclosed in double quotation marks; if it is enclosed in single quotation marks, <att>rend</att> with <val>sq</val>
+                    (single quotatation marks) is used.</p>
+                 <p>Titles of books, periodicals, etc., enclosed in quotation marks have been replaced by <gi>title</gi> tags, with the
+                    <att>rend</att> and <val>dq</val> (double quotation marks) or <val>sq</val> (single quotation marks).</p>
+                 <p>Scare quotes have been replaced by <gi>soCalled</gi>.</p>
+                 <p>Other occurances of quotation marks are replaced with <gi>hi</gi> and <att>rend</att> and <val>dq</val> or <val>sq</val>.</p>
+                 <p>Punctuation within quotation marks that are present due to the punctuation of the main text have not been included within the above elements,
+                    even when that punctuation falls within the quotation marks. It has presumed that formatting processing can insert quotations marks after any
+                    punctuation immediately following one of these element tags.
+                 </p>
+              </quotation>
+              <hyphenation eol="some">
+                 <p>Hyphens are retained for all words hyphenated over a page break.</p>
+              </hyphenation>
+              <segmentation>
+                 <p><gi>seg</gi> tags are used to enclose multiple <gi>said</gi> units that form a single unit of speech
+                    or conversation. <att>type</att> is used with the values of <val>said</val> (for a speech by an individual)
+                    or <val>conversation</val> for an exchange between two or more people.</p>
+              </segmentation>
+           </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+           <change>teiHeader template created <date when-iso="2013-06-19"/> <persName>Jason Boyd</persName></change>
+        </revisionDesc>
+  </teiHeader>
+  <text>
+      <front><gap reason="omitted"/></front>
+     
+      <body>
+         <gap reason="omitted"/>
+         
+         <div type="contribution">
+         
+         <pb n="[607]"/>
+         
+         <figure><figDesc>Illustrated title border shows Zola, Tolstoy, Ibsen, Loti, Wilde, Twain, Hardy, and Meredith as a procession of funeral mutes.</figDesc></figure>
+         <head><title>THE DISMAL THRONG</title>.</head>
+         <byline>BY <persName key="">ROBERT BUCHANAN</persName>.</byline>
+         <byline>ILLUSTRATIONS BY <persName>GEO. HUTCHINSON</persName>.</byline>
+         <head type="sub" rend="italic">(Written after reading the last Study in Literary Distemper.)</head>
+         
+         <lg xml:id="Buchanan1893Dismal_st001" type="stanza">
+            <l>The Fairy Tale of Life is done,</l>
+            <l>The horns of Fairyland cease blowing,</l>
+            <l>The Gods have left us one by one,</l>
+            <l>And the last Poets, too, are going!</l>
+            <l>Ended is all the mirth and song,</l>
+            <l>Fled are the merry Music-makers;</l>
+            <l>And what remains? The Dismal Throng</l>
+            <l>Of literary Undertakers!</l>
+         </lg><!--head sketch of Thomas Hardy to right of stanza-->
+         
+         <lg xml:id="Buchanan1893Dismal_st002" type="stanza">
+            <l>Clad in deep black of funeral cut,</l>
+            <l>With faces of forlorn expression,</l>
+            <l>Their eyes half open, souls close shut,</l>
+            <l>They stalk along in pale procession;</l>
+            <l>The latest seed of <persName>Schopenhauer</persName>,</l>
+            <l>Born of a Trull of <persName>Flaubert</persName>’s choosing,</l>
+            <l>They cry, while on the ground they glower,</l>
+            <l><q rend="dq">There’s nothing in the world amusing!</q></l>
+         </lg>
+         
+         <lg xml:id="Buchanan1893Dismal_st003" type="stanza">
+            <l>There’s <persName>Zola</persName>, grimy as his theme,</l>
+            <l>Nosing the sewers with cynic pleasure,</l>
+            <l>Sceptic of all that poets dream,</l>
+            <l>All hopes that simple mortals treasure;</l>
+            <l>With sense most keen for odours strong,</l>
+            <l>He stirs the Drains and scents disaster,</l>
+            <l>Grim monarch of the Dismal Throng</l>
+            <l>Who bow their heads before <soCalled>the Master.</soCalled></l>
+         </lg><!--head sketch of Zola to left of stanza-->
+         
+         <pb n="608"/>
+         
+         <lg xml:id="Buchanan1893Dismal_st004" type="stanza">
+            <l>There’s <persName>Miss Matilda</persName><ref target="#Buchanan1893Dismal_st004_n1" type="noteAnchor" rend="superscript">1</ref> in the south,</l>
+            <l>There’s <persName>Valdes</persName><ref target="#Buchanan1893Dismal_st004_n2" type="noteAnchor" rend="superscript">2</ref> in Madrid and Seville,</l>
+            <l>There’s mad <persName>Verlaine</persName><ref target="#Buchanan1893Dismal_st004_n3" type="noteAnchor" rend="superscript">3</ref> with gangrened mouth.</l>
+            <l>Grinning at <persName>Rimbaud</persName> and the Devil.</l>
+            <l>From every nation of the earth,</l>
+            <l>Instead of smiling merry-makers,</l>
+            <l>They come, the foes of Love and Mirth,</l>
+            <l>The Dismal Throng of Undertakers.</l>
+         </lg>
+         
+         <lg xml:id="Buchanan1893Dismal_st005" type="stanza">
+            <l>There’s <persName>Tolstoi</persName>, towering in his place</l>
+            <l>O’er all the rest by head and shoulders;</l>
+            <l>No sunshine on that noble face</l>
+            <l>Which Nature meant to charm beholders!</l>
+            <l>Mad with his self-made martyr’s shirt,</l>
+            <l>Obscene, through hatred of obsceneness,</l>
+            <l>He from a pulpit built of Dirt</l>
+            <l>Shrieks his Apocalypse of Cleanness!</l>
+         </lg><!--head sketch of Tolstoy to right of stanza-->
+         
+         <lg xml:id="Buchanan1893Dismal_st006" type="stanza">
+            <l>There’s <persName>Ibsen</persName>,<ref target="#Buchanan1893Dismal_st006_n4" type="noteAnchor" rend="superscript">4</ref> puckering up his lips,</l>
+            <l>Squirming at Nature and Society,</l>
+            <l>Drawing with tingling finger-tips</l>
+            <l>The clothes off naked Impropriety!</l>
+            <l>So nice, so nasty, and so grim,</l>
+            <l>He hugs his gloomy bottled thunder;</l>
+            <l>To summon up one smile from him</l>
+            <l>Would be a miracle of wonder!</l>
+         </lg><!--sketch of Ibsen to left of stanza-->
+         
+         <note xml:id="Buchanan1893Dismal_st004_n1" type="footnote"><persName>Mathilde Serao</persName>, an Italian novelist.</note><lb/>
+         <note xml:id="Buchanan1893Dismal_st004_n2" type="footnote">A Spanish novelist.</note>
+         <note xml:id="Buchanan1893Dismal_st004_n3" type="footnote"><persName>Verlaine</persName> and <persName>Rimbaud</persName>, two poets of the Parisian Decadence.</note>
+         <note xml:id="Buchanan1893Dismal_st006_n4" type="footnote">A Norwegian playwright.</note>
+        
+         <pb n="609"/>
+         
+         <lg xml:id="Buchanan1893Dismal_st007" type="stanza">
+            <l>There’s <persName>Maupassant</persName>,<ref target="#Buchanan1893Dismal_st007_n1" type="noteAnchor" rend="superscript">1</ref> who takes his cue</l>
+            <l>From Dame Bovary’s bourgeois troubles;</l>
+            <l>There’s <persName>Bourget</persName>, dyed his own sick <q rend="dq">blue,</q></l>
+            <l>There’s <persName>Loti</persName>, blowing blue soap-bubbles;</l>
+            <l>There’s <persName>Mendès</persName><ref target="#Buchanan1893Dismal_st007_n2" type="noteAnchor" rend="superscript">2</ref> (no <persName>Catullus</persName>, he!)</l>
+            <l>There’s <persName>Richepin</persName>,<ref target="#Buchanan1893Dismal_st007_n3" type="noteAnchor" rend="superscript">3</ref> sick with sensual passion.</l>
+            <l>The Dismal Throng! So foul, so free,</l>
+            <l>Yet sombre all, as is the fashion.</l>
+         </lg>
+         
+         <q rend="dq">
+         <lg xml:id="Buchanan1893Dismal_st008" type="stanza">
+            <l>Turn down the lights! put out the Sun!</l>
+            <l>Man is unclean and morals muddy,</l>
+            <l>The Fairy Tale of Life is done,</l>
+            <l>Disease and Dirt must be our study!</l>
+            <l>Tear open Nature’s genial heart,</l>
+            <l>Let neither God nor gods escape us,</l>
+            <l>But spare, to give our subjects zest,</l>
+            <l>The basest god of all—<persName>Priapus</persName>!</l>
+         </lg>
+         </q>
+         
+         <lg xml:id="Buchanan1893Dismal_st009" type="stanza">
+            <l>The Dismal Throng! ’Tis thus they preach,</l>
+            <l>From Christiania to Cadiz,</l>
+            <l>Recruited as they talk and teach</l>
+            <l>By dingy lads and draggled ladies;</l>
+            <l>Without a sunbeam or a song,</l>
+            <l>With no clear Heaven to hunger after;</l>
+            <l>The Dismal Throng! the Dismal Throng!</l>
+            <l>The foes of Life and Love and Laughter!</l>
+         </lg>
+          
+         <lg xml:id="Buchanan1893Dismal_st010" type="stanza"> 
+            <l>By <persName>Shakespere</persName>’s Soul! if this goes on,</l>
+            <l>From every face of man and woman</l>
+            <l>The gift of gladness will be gone,</l>
+            <l>And laughter will be thought inhuman!</l>
+            <l>The only beast who smiles is Man!</l>
+            <l><emph>That</emph> marks him out from meaner creatures!</l>
+            <l>Confound the Dismal Throng, who plan</l>
+            <l>To take God’s birth-mark from our features!</l>
+         </lg>
+         
+         <note xml:id="Buchanan1893Dismal_st007_n1" type="footnote"><persName>Guy de Maupassant</persName>, <persName>Paul Bourget</persName>, and <persName>Pierre Loti</persName>, novelists of the Decadence.</note>
+         <note xml:id="Buchanan1893Dismal_st007_n2" type="footnote"><persName>Catulle Mendès</persName>, a Parisian poet and novelist.</note>
+         <note xml:id="Buchanan1893Dismal_st007_n3" type="footnote"><persName>Jean Richepin</persName>, ditto.</note>
+         
+         <pb n="610"/>
+         
+         <lg xml:id="Buchanan1893Dismal_st011" type="stanza">
+            <l>Manfreds who walk the hospitals,</l>
+            <l>Laras and Giaours grown scientific,</l>
+            <l>They wear the clothes and bear the palls</l>
+            <l>Of Stormy Ones once thought terrific;</l>
+            <l>They play the same old funeral tune,</l>
+            <l>And posture with the same dejection,</l>
+            <l>But turn from howling at the moon</l>
+            <l>To literary vivisection!</l>
+         </lg>
+         
+         <lg xml:id="Buchanan1893Dismal_st012" type="stanza">
+            <l>And while they loom before our view,</l>
+            <l>Dark’ning the air that should be sunny,</l>
+            <l>Here’s <persName key="#OSW001">Oscar</persName>,<ref target="#Buchanan1893Dismal_st012_n1" type="noteAnchor" rend="superscript">1</ref> growing dismal too,</l>
+            <l>Our Oscar, who was once so funny!</l>
+            <l>Blue china ceases to delight</l>
+            <l>The dear curl’d darling of society,</l>
+            <l>Changed are his breeches, once so bright,</l>
+            <l>For foreign breaches of propriety!</l>
+         </lg><!--drawing of Wilde to the right of the stanza-->
+         
+         <lg xml:id="Buchanan1893Dismal_st013" type="stanza">
+            <l>I like my <persName key="#OSW001">Oscar</persName>, tolerate</l>
+            <l>My <persName>Archer</persName><ref target="#Buchanan1893Dismal_st013_n2" type="noteAnchor" rend="superscript">2</ref> of the Dauntless Grammar,</l>
+            <l>Nay, e’en my <persName>Moore</persName><ref target="#Buchanan1893Dismal_st013_n2" type="noteAnchor" rend="superscript">3</ref> I estimate</l>
+            <l>Not too unkindly, ’spite his clamour;</l>
+            <l>But I prefer my roses still</l>
+            <l>To all the garlic in their garden—</l>
+            <l>Let <persName>Hedda</persName> gabble as she will,</l>
+            <l>I’ll stay with <persName>Rosalind</persName>, in Arden!</l>
+         </lg><!--head sketch of George Moore to left of stanza-->
+         
+         <lg xml:id="Buchanan1893Dismal_st014" type="stanza">
+            <l>O for one laugh of <persName>Rabelais</persName>,</l>
+            <l>To rout these moralising croakers!</l>
+            <l>(The cowls were mightier far than they,</l>
+            <l>Yet fled before that King of Jokers).</l>
+            <l>O for a slash of <persName>Fielding</persName>’s pen</l>
+            <l>To bleed these pimps of Melancholy!</l>
+            <l>O for a <persName>Boz</persName>, born once again</l>
+            <l>To play the <persName>Dickens</persName> with such folly!</l>
+         </lg>
+         
+         <note xml:id="Buchanan1893Dismal_st012_n1" type="footnote"><persName key="#OSW001">Mr. Oscar Wilde</persName>.</note>
+         <note xml:id="Buchanan1893Dismal_st013_n2" type="footnote"><persName>Mr. William Archer</persName>, a newspaper critic.</note>
+         <note xml:id="Buchanan1893Dismal_st013_n3" type="footnote"><persName>Mr. George Moore</persName>, an author and newspaper critic.</note>
+         
+         <pb n="611"/>
+         
+         <lg xml:id="Buchanan1893Dismal_st015" type="stanza">
+            <l>Yet stay! why bid the dead arise?</l>
+            <l>Why call them back from Charon’s wherry?</l>
+            <l>Come, <persName>Yankee Mark</persName>, with twinkling eyes,</l>
+            <l>Confuse these ghouls with something merry!</l>
+            <l>Come, <persName>Kipling</persName>, with thy soldiers three,</l>
+            <l>Thy barrack-ladies frail and fervent,</l>
+            <l>Forsake thy themes of butchery</l>
+            <l>And be the merry Muses’ servant!</l>
+         </lg><!--head drawing of Mark Twain to left of stanza-->
+            
+         <lg xml:id="Buchanan1893Dismal_st016" type="stanza" >   
+            <l>Come, <persName>Dickens</persName>’ foster-son, <persName>Bret Harte</persName>!</l>
+            <l>Come, <persName>Sims</persName>, though gigmen flout thy labours!</l>
+            <l><persName>Tom Hardy</persName>, blow the clouds apart</l>
+            <l>With sound of rustic fifes and tabors!</l>
+            <l><persName>Dick Blackmore</persName>, full of homely joy,</l>
+            <l>Come from thy garden by the river,</l>
+            <l>And pelt with fruit and flowers, old boy,</l>
+            <l>These dismal bores who drone for ever!</l>
+         </lg>
+         
+         <lg xml:id="Buchanan1893Dismal_st017" type="stanza">   
+            <l>Come, too, <persName>George Meredith</persName>, whose eyes,</l>
+            <l>Though oft with vapours shadow’d over,</l>
+            <l>Can catch the sunlight from the skies</l>
+            <l>And flash it down on lass and lover;</l>
+            <l>Tell us of Life, and Love’s young dream,</l>
+            <l>Show the prismatic soul of Woman,</l>
+            <l>Bring back the Light, whose morning beam</l>
+            <l>First made the Beast upright and human!</l>
+         </lg><!--head drawing of George Meredith to right of stanza-->
+         
+         <lg xml:id="Buchanan1893Dismal_st018" type="stanza">
+            <l>You can be merry, <persName>George</persName>, I vow!</l>
+            <l>Wit through your cloudiest prosing twinkles!</l>
+            <l>Brood as you may, upon your brow</l>
+            <l>The cynic, Art, has left no wrinkles!</l>
+            <l>For you’re a poet to the core,</l>
+            <l>No ghouls can from the Muses win you;</l>
+            <l>So throw your cap i’ the air once more,</l>
+            <l>And show the joy of earth that’s in you!</l>
+         </lg>
+         
+         <pb n="612"/>
+         
+         <lg xml:id="Buchanan1893Dismal_st019" type="stanza">
+            <l>By Heaven! we want you one and all,</l>
+            <l>For Hypochondria is reigning—</l>
+            <l>The Mater Dolorosa’s squall</l>
+            <l>Makes Nature hideous with complaining!</l>
+            <l>Ah! who will paint the Face that smiled</l>
+            <l>When Art was virginal and vernal—</l>
+            <l>The pure Madonna with her Child,</l>
+            <l>Pure as the light, and as eternal!</l>
+         </lg>
+         
+         <lg xml:id="Buchanan1893Dismal_st020" type="stanza">
+            <l>Pest on these dreary, dolent airs!</l>
+            <l>Confound these funeral pomps and poses!</l>
+            <l>Is Life Dyspepsia’s and Despair’s,</l>
+            <l>And Love’s complexion all chlorosis?</l>
+            <l>A lie! There’s Health, and Mirth, and Song,</l>
+            <l>The World still laughs, and goes a-Maying—</l>
+            <l>The dismal, droning, doleful Throng</l>
+            <l>Are only smuts in sunshine playing!</l>
+         </lg>
+         
+         <lg xml:id="Buchanan1893Dismal_st021" type="stanza">
+            <l>Play up, ye horns of Fairyland!</l>
+            <l>Shine out, O sun, and planets seven!</l>
+            <l>Beyond these clouds a beckoning Hand</l>
+            <l>Gleams from the lattices of Heaven!</l>
+            <l>The World’s alive—still quick, not dead,</l>
+            <l>It needs no Undertaker’s warning;</l>
+            <l>So put the Dismal Throng to bed,</l>
+            <l>And wake once more to Light and Morning!</l>
+         </lg>
+            
+         <note xml:id="Buchanan1893Dismal_note"><label>NOTE.</label>—<p>These verses refer to a literary phenomenon that will in time
+            become historical, that phenomenon being the sudden growth, in all parts of
+            Europe, of a fungus-literature bred of Foulness and Decay; and contemporaneously,
+            the intrusion into all parts of human life of a Calvinistic yet materialistic
+            Morality. This literature of a sunless Decadence has spread widely, by
+            virtue of its own uncleanness, and its leading characteristics are gloom,
+            ugliness, prurience, preachiness, and weedy flabbiness of style. That it has
+            not flourished in Great Britain, save among a small and discredited Cockney
+            minority, is due to the inherent manliness and vigour of the national
+            character. The land of <persName>Shakespere</persName>, <persName>Scott</persName>,
+            <persName>Burns</persName>, <persName>Fielding</persName>, <persName>Dickens</persName>, and
+            <persName>Charles Reade</persName> is protected against literary miasmas by the strength of its
+            humour and the sunniness of its temperament.</p>—<persName key="#">R.B.</persName></note>
+         
+      </div>
+         
+         <gap reason="omitted"/>
+         
+      </body>
+  </text>
+</TEI>
