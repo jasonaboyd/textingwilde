@@ -1,0 +1,535 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title type="original">Private Diaries of the Rt. Hon. Sir Algernon West, G.C.B.</title>
+               <title type="digital">Excerpts Relating to Oscar Wilde: A Texting Wilde Project Digital Edition</title>
+               <author>West, Algernon</author>
+               <editor>Hutchinson, Horace G.</editor>
+               <principal>Jason A. Boyd, Director, Texting Wilde Project (TWP)</principal>
+               <funder>Office of the Dean of Arts, Ryerson University, Toronto, Ontario, Canada</funder>
+               <funder>Social Sciences and Humanities Research Council of Canada (SSHRC)</funder>
+               <respStmt><resp>edited and encoded by</resp><name>Jason Boyd</name></respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition>Version 2, 12 November 2015</edition>
+            </editionStmt>
+            <publicationStmt>
+               <publisher>Texting Wilde Project</publisher>
+               <address><addrLine><!--project URL--></addrLine></address>
+               <availability>
+                  <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported</licence> 
+               </availability>
+               <date><!--date of publication--></date>
+            </publicationStmt>
+            <seriesStmt>
+               <p>Machine readable texts for the study of pre-1945 Oscar Wilde biography.</p>
+               <p><name>Jason A. Boyd</name>, General Editor, Texting Wilde Project</p>
+            </seriesStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier n="https://archive.org/details/cu31924028345852"/>
+               </msDesc>
+               <biblStruct>
+                  <monogr>
+                     <author> 
+                        <persName>
+                           <surname>West</surname>, 
+                           <forename>Algernon</forename>
+                        </persName>
+                     </author>
+                     <editor>
+                        <persName>
+                           <surname>Hutchinson</surname>
+                           <forename type="first">Horace</forename>
+                           <forename type="middle">G</forename>
+                        </persName>
+                     </editor>
+                     <title>Private Diaries of the Rt. Hon. Sir Algernon West, G.C.B.</title>
+                     <imprint>
+                        <pubPlace>London</pubPlace>
+                        <publisher>John Murray</publisher>
+                        <date>1922</date>
+                     </imprint>
+                     <biblScope unit="pp">15, 18, 23-4, 58, 63-4, 70-1, 151, 153-4, 300, 312, 381</biblScope>
+                  </monogr>
+               </biblStruct>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <projectDesc>
+               <p>The Texting Wilde Project's aim is prepare machine-readable versions of pre-1945 biographical
+                  texts relating to Oscar Wilde for large-scale analysis.</p>
+            </projectDesc>
+            <editorialDecl>
+               <quotation marks="none">
+                  <p>All quotation marks in the original have been removed.</p>
+                  <p>Text quoted from an external source and enclosed in quotation marks have been replaced by <gi>quote</gi> tags. The default assumption is that
+                     quotations are enclosed in double quotation marks; if they are enclosed in single quotation marks, <att>rend</att> with <val>sq</val>
+                     (single quotation marks) is used.</p>
+                  <p>Reported direct speech enclosed in quotation marks have been replaced by <gi>said</gi> tags. The default assumption is that
+                     direct speech is enclosed in double quotation marks; if it is enclosed in single quotation marks, <att>rend</att> with <val>sq</val>
+                     (single quotatation marks) is used.</p>
+                  <p>Titles of books, periodicals, etc., enclosed in quotation marks have been replaced by <gi>title</gi> tags, with the
+                     <att>rend</att> and <val>dq</val> (double quotation marks) or <val>sq</val> (single quotation marks).</p>
+                  <p>Scare quotes have been replaced by <gi>soCalled</gi>.</p>
+                  <p>Other occurances of quotation marks are replaced with <gi>hi</gi> and <att>rend</att> and <val>dq</val> or <val>sq</val>.</p>
+                  <p>Punctuation within quotation marks that are present due to the punctuation of the main text have not been included within the above elements,
+                     even when that punctuation falls within the quotation marks. It has presumed that formatting processing can insert quotations marks after any
+                     punctuation immediately following one of these element tags.
+                  </p>
+               </quotation>
+               <hyphenation eol="some">
+                  <p>Hyphens are retained for all words hyphenated over a page break.</p>
+               </hyphenation>
+               <segmentation>
+                  <p><gi>seg</gi> tags are used to enclose multiple <gi>said</gi> units that form a single unit of speech
+                     or conversation. <att>type</att> is used with the values of <val>said</val> (for a speech by an individual)
+                     or <val>conversation</val> for an exchange between two or more people.</p>
+               </segmentation>
+            </editorialDecl>
+         </encodingDesc>
+         <revisionDesc>
+            <change>teiHeader template created <date when-iso="2013-06-19"/> <persName>Jason Boyd</persName></change>
+         </revisionDesc>
+      </teiHeader>
+  
+   <text>
+     
+      <front>
+         
+        <gap reason="omitted"/>
+         
+        <pb n="15" rend="roman"/>
+        <div>
+           <head>NOTE</head>
+           <p xml:id="West1922Diaries_note_p001">The first two chapters are to be regarded as introductory 
+              to the actual Diary. They were put into their present 
+              form by <persName key="#">Sir Algernon</persName> before his death, and published, 
+              substantially as here, in the <title rend="ital">Cornhill Magazine</title>. But in 
+              the several <title rend="ital">Recollections</title> which he published during his 
+              life he was careful not to encroach on the ground which 
+              he intended to cover in the diaries that would appear 
+              posthumously. The former stop where the latter begin. 
+              An index of names of most of the people mentioned in 
+              the diaries will be found at the end of the book. A short 
+              note is attached to each name. Thanks are due and are 
+              hereby given to those who have very kindly granted leave 
+              for the publication of letters.</p>
+        </div>
+        
+         <pb n="16" rend="roman"/>
+        
+         <gap reason="omitted"/>
+     
+      </front>
+     
+      <body>
+         
+         <gap reason="omitted"/>
+         
+         <div type="chapter" n="2"><!--This chapter appears to start and end with narrative based upon letters,
+            diaries, and/or memories, rather than a transcription, except for the section labeled "Extracts" (see below).
+            It is not made explicit where these extracts end, but the likely place is on p. 32, beginning
+            "On March 15 my wife and I dined...". As the Note above points out, this chapter was published in the
+            Cornhill-->
+            
+            <pb n="18"/>
+            
+            <head type="chapter"><label>CHAPTER II</label>
+               <title>WITH MR. GLADSTONE AT BIARRITZ</title>
+            </head>
+            
+               <gap reason="omitted"/>
+            
+            <pb n="19"/>
+            
+               <gap reason="omitted"/>
+            
+            <pb n="23"/>
+            
+               <gap reason="omitted"/>
+            
+            <head rend="italic">Extracts from letters to 
+               <rs type="person" key="TWP_Personography.xml#WEM001">my Wife</rs>, when on a visit to
+               <placeName>Biarritz</placeName>, 
+               in <date when-iso="1891-12">December 1891</date>
+            </head> 
+            
+            <!--These extracts appear to continue to the top of p.32 and into the new year (5 January 1892)-->
+            <!--This is an interesting example of an anecdote which has nothing to do with Wilde beyond the writer
+               alluding to a famous saying of Wilde's to illustrate his own experience-->
+            
+            <quote source="#" ana="#source_doc">
+            
+               <floatingText>
+            
+                  <body>   
+            
+                     <p xml:id="West1922Diaries_ch02_p001">Having arranged to pay a visit to Mr. Armitstead at 
+                        <placeName>Biarritz</placeName>, where Mr. Gladstone was staying, 
+                        <rs type="person" key="TWP_Personography.xml#WEA001">I</rs>
+                        started from Charing Cross at 10 a.m. (on the <date when-iso="1891-12-23">23rd</date>) in a
+                        thick fog, Horace coming to see me off. It had cleared by the time I had reached the Channel,
+                        where the sea was smooth and the sun bright. I had to drive an endless distance from the
+                        <q rend="dq">Nord</q> to the <q rend="dq">Orleans</q> station, where I dined and went on to
+                        Biarritz, arriving about 11 a.m. on <date when-iso="1891-12-24">December 24</date>, and was met
+                        by Armitstead's courier, who took me to the Grand Hotel, where I washed and dressed and was ready
+                        for breakfast.
+                     </p> 
+                     <p xml:id="West1922Diaries_ch02_p002">The result of the Waterford Election, W. Redmond 
+               
+            <pb n="24"/>
+            <!--24 WITH MR. GLADSTONE AT BIARRITZ--> 
+               
+                        (Parnellite) defeating M. Davitt (Nationalist), followed me rapidly, but beyond the moment it
+                        did not seem to depress Mr. Gladstone.
+                     </p>  
+                     <p xml:id="West1922Diaries_ch02_p003">
+                        <rs type="person" key="TWP_Personography.xml#WEA001">I</rs> took a little walk down to the sea, and as
+                        <persName key="Personography.xml#WIO001">Oscar Wilde</persName> 
+                        <said who="Personography.xml#WIO001" direct="false">was disappointed with the <placeName>Atlantic</placeName></said> 
+                        so was I disappointed with the rocks, which are poor compared to our Cornish coasts, though
+                        there is always of course a fine sea.
+                     </p>
+            </body>
+            </floatingText>
+            </quote>
+            
+            <gap reason="omitted"/>
+            
+            <pb n="25"/>
+            
+            <gap reason="omitted"/>
+            
+         </div>
+         
+         <gap reason="omitted"/>
+         
+         <div type="chapter" n="5">
+            
+            <pb n="58"/>
+            
+            <head type="chapter"><label>CHAPTER V</label>
+               <title>1892</title>
+               <title>APPOINTMENTS AND DISAPPOINTMENTS</title>
+            </head>
+            
+            <gap reason="omitted"/>
+            
+            <pb n="59"/>
+            
+            <gap reason="omitted"/>
+            
+            <pb n="63"/>
+            <!--VISIT TO "GLEN" 63--> 
+            
+            <gap reason="omitted"/>
+            
+            <!--This section appears to compile a number of diary entries under the "October 1892" heading,
+            concerning West's stay at "Glen" and the death of Tennyson. While not explicit, the diary transcription/summary
+            appears to end on p.64 with the paragraph ending "...Her Majesty's gift as a household appointment." JAB-->
+            <!--I have not encoded this as floatingText because it appears to summarize diary entries rather than
+               offer a transcription: JAB-->
+            
+            <quote type="mixed">
+            
+            <label><date when-iso="1892-10">October 1892</date>.</label> 
+               
+                     <p xml:id="West1922Diaries_ch05_p001">
+                        At the beginning of October everyone was gone into the country again but Asquith, with 
+                        whom I had a talk one day, when he told me his plan for meetings in Trafalgar Square, which
+                        appeared reasonable and workable.
+                     </p> 
+            
+                     <p xml:id="West1922Diaries_ch05_p002">
+                        On <date when-iso="1892-10-05">October 5</date> 
+                        <rs type="person" key="Personography.xml#WEA001">I</rs> went to
+                        <q rend="dq"><placeName>Glen</placeName>,</q> 
+                        <persName key="TWP_Personography.xml#">Sir Charles Tennant</persName>'s. 
+                     <persName ref="OSW001">Oscar Wilde</persName> came there the night before I left, and was 
+                     very amusing. He told us of <said direct="false" who="OSW001">a visit he had paid to
+                     <persName key="">Zola</persName>, whom he found exhausted after his work the
+                        <title rend="ital">Debacle</title>. 
+                     He told him that <said direct="false" who="EMZ001?">a novelist and writer must know everything
+                     or nothing. Either he must draw on his imagination
+                     for everything or be realistic; his was the latter 
+                     school, and he had just come back from his second and 
+                     final visit to Sedan, to be sure that what he had written 
+                     was actually correct. As a poor student he had lived in 
+                     the Quartier Latin with a little shop-girl — a grisette — and 
+                     when he sprang into fame by his <title rend="ital">Nana</title> he at once married 
+                     her.</said> <said who="OSW001" direct="true">
+                        <quote><said direct="true">She can't</said> he said, <said>even now read, but she makes 
+                        a good mistress of my household, and is a good judge of 
+                        art, and particularly of tapestry.</said>
+                        </quote></said></said>
+                     </p>
+               
+                     <!--It is somewhat unclear whether the following is another story told by Wilde at "Glen"-->  
+            
+                     <p><said who="OSW001" direct="false" cert="medium" resp="#JAB">When <persName>Routh</persName>, the old President of
+                     <orgName>Magdalen</orgName>, was dying, 
+                     and all the dons were assembled at his deathbed, he summoned one to him and said:
+                        <said who="OSW001" direct="true"><quote><said>You will put it down 
+                        as 100, will you not?</said></quote></said> He was really ninety-nine and 
+                        nine months; and so on his tomb is put <quote>C.</quote></said>
+                     </p> 
+            
+                     <p>Spencer Lyttelton and George Murray kindly kept me 
+                     well informed of all that went on in Downing Street, 
+                     the former saying that Rosebery was very anxious that 
+                     Lord Playfair should accept the Lordship-in-Waiting, as 
+                     he would help him on Scottish matters in the House; 
+                     also that the Queen still objected to Lord Granville as too 
+                     young. Murray told me that he had visited the British 
+                     Museum and discovered that Swinburne had never withdrawn
+                     a word of his poems and ballads, but on the con- 
+            
+            <pb n="64"/>
+            <!--64 APPOINTMENTS AND DISAPPOINTMENTS--> 
+            
+                     trary had published a pamphlet in defence of them, and 
+                     had circulated a poem against the execution of the Manchester
+                     Fenians; so I am afraid that his chances of the 
+                     Laureateship are over.
+                     </p> 
+            
+            <p>During my visit at the <placeName>Glen</placeName> we went to a matinee at 
+            <placeName>Glasgow</placeName> in which the <persName><persName>Beerbohm Trees</persName></persName> acted;
+               we dined and 
+            slept at Sir Charles' house and supped with the Beerbohm 
+            Trees, which was dull, as such things always are, the 
+            talk being invariably <soCalled>shop.</soCalled>
+            </p>
+               
+            </quote>
+            
+            <gap reason="omitted"/>
+            
+            <pb n="65"/>
+            
+            <gap reason="omitted"/>
+            
+         </div>
+         
+         <div type="chapter">
+            
+            <pb n="70"/>
+            
+            <head type="chapter">
+               <label>CHAPTER VI</label>
+               <title type="main">1892</title>
+               <title type="sub">DIFFICULTIES IN THE CABINET</title>
+            </head>
+            
+            <gap reason="omitted"/>
+            
+            <pb n="71"/>
+            
+            <gap reason="omitted"/>
+            
+            <floatingText>
+               <body>
+            
+                  <p><date when-iso="1892-11-03">November 3</date>. <gap reason="omitted"/></p>
+            
+            <gap reason="omitted"/>
+            
+                  <p>To see <persName ref="OSW001">Oscar Wilde</persName>'s play,
+                     <title rend="ital">Lady Windermere's Fan</title>. 
+                  Excellent, and the conversation smart: <quote>His experience 
+                  means his mistake</quote> etc.</p>
+               
+               </body>
+            </floatingText>
+            
+            <note type="foot"><gap reason="omitted"/></note>
+           
+         </div>
+         
+         <div type="chapter">
+            
+            <pb n="151"/>
+            
+            <head type="chapter"><label>CHAPTER X</label>   
+               <title type="main">1893</title>
+               <title type="sub">EARLY DAYS OF THE SESSION</title>
+            </head>
+            
+            <gap reason="omitted"/>
+            
+            <pb n="152"/>
+            
+            <gap reason="omitted"/>
+            
+            <pb n="153"/>
+            
+            <gap reason="omitted"/>
+            
+            <floatingText>
+               
+               <body>
+                  
+                  <gap reason="omitted"/>
+            
+            <label><date when-iso="1893-04-19">April 19</date>.</label>
+            
+            <gap reason="omitted"/>
+            
+            <p xml:id="West1922Diaries_ch10_p001">
+               <rs type="event" ana="#FH #DOC">Dined at 
+                  <persName key="TWP_Personography.xml#">
+                     <persName key="TWP_Personography.xml#">Asquith's</persName>
+                  </persName>:
+                  <persName key="TWP_Personography.xml#">
+                     <persName key="TWP_Personography.xml#">Alfred Lytteltons</persName>
+                  </persName>,
+                  <persName key="TWP_Personography.xml#">
+                     <persName key="TWP_Personograpy.xml#">Birrells</persName>
+                  </persName>, <persName key="TWP_Personography.xml#">J. Tennant</persName>,
+                  <persName key="TWP_Personography.xml#">John Morley</persName>,
+                  <rs type="person" key="TWP_Personography.xml#">my wife</rs>
+               having been to see <persName key="TWP_Personography.xml#WIO001">Oscar 
+            
+               <pb n="154"/>
+               <!--154 EARLY DAYS OF THE SESSION--> 
+               
+               Wilde</persName>'s new play, <title rend="ital">A Woman of no Importance</title>.
+               
+               It was discussed whether Oscar Wilde was really witty;
+               <persName key="TWP_Personography.xml#BIA001">Birrell</persName> contended he was,
+               and gave this instance:
+               
+                  <rs type="event" key="TWP_Chronology.xml#e18930419_01" ana="SHS">
+                     <seg>
+                     <said who="TWP_Personography.xml#BIA001" direct="false">
+                        <persName key="TWP_Personography.xml#BIA001">He</persName> had met 
+                        <persName key="TWP_Personography.xml#MOL001">L. Morris</persName>, who said,
+                     </said>
+                     <said who="TWP_Personography.xml#BIA001" direct="true">
+                        <said who="TWP_Personography.xml#MOL001" direct="true">I have written a book,
+                           and not a paper nor a review has alluded to it. There is a conspiracy
+                           of silence.
+                        </said>
+                     </said>
+                     <said who="TWP_Personography.xml#BIA001" direct="true">Directly after, I met 
+                        Oscar Wilde and asked him 
+                        <said who="TWP_Personography.xml#BIA001" direct="false">what I
+                           ought to have said</said>.
+                           <seg type="said">
+                              <said who="Personography.xml#WIO001" direct="true" rend="sq">You should have said</said>,
+                                 answered Oscar Wilde:
+                              <said who="Personography.xml#WIO001" direct="true">My dear Morris, join it yourself.</said>
+                            </seg>
+                      </said>
+                     </seg>
+                     </rs>
+                  </rs>
+            </p>
+                  
+            <gap reason="omitted"/>
+                  
+            <pb n="155"/>
+                  
+            <gap reason="omitted"/>
+                  
+               </body>
+               
+            </floatingText>
+            
+            <gap reason="omitted"/>
+            
+            <pb n="156"/>
+         
+         </div>
+         
+         <div type="chapter">
+            
+            <pb n="300"/>
+            
+            <head type="chapter">
+               <label>CHAPTER XX</label>
+               <title type="main">1895</title>
+               <title type="sub">VARIOUS ACTIVITIES</title>
+            </head>
+            
+            <gap reason="omitted"/>
+            
+            <pb n="301"/>
+            
+            <gap reason="omitted"/>
+            
+            <pb n="312"/>
+            <!--312 VARIOUS ACTIVITIES--> 
+            
+            <floatingText>
+               
+               <body>
+               
+            <label><date when-iso="1895-08">August</date>.</label>
+            <p>I saw <persName key="">Haldane</persName>, who was most talkative. 
+            Had been to see <persName key="">Oscar Wilde</persName> in <orgName>Wandsworth Gaol</orgName>, and 
+            had recommended his applying his mind to some work 
+            which he could produce when he left this country at the 
+            end of his term. <persName key="">Oscar Wilde</persName> made no secret of his guilt, 
+            saying <said direct="false" who="#OSW001">the temptation of such a life was too great for 
+            him</said>.</p>
+            
+            <gap reason="omitted"/>
+               
+               </body>
+               
+            </floatingText>
+            
+            <gap reason="omitted"/>
+            
+            <pb n="313"/>
+            
+            <gap reason="omitted"/>
+            
+         </div>
+         
+      </body>
+      
+      <back>
+         
+         <gap reason="omitted"/>
+         
+         <div type="index">
+            
+            <list>
+            
+            <gap reason="omitted"/>
+            
+            <pb n="381"/>
+            
+            <cb n="1"/>
+            
+            <gap reason="omitted"/>
+               
+               <item><label>Wilde, Oscar</label>,<ref>24</ref>;
+                  <list>
+                     <item>at the Glen, <ref>63</ref>;</item>
+                     <item><title rend="ital">Lady Windermere's Fan</title>, <ref>71</ref>;</item> 
+                     <item><title rend="ital">A Woman of No Importance</title>, <ref>154</ref>;</item>
+                     <item>in Wandsworth Gaol,<ref>312</ref></item>
+                  </list>
+               </item>
+            
+            <gap reason="omitted"/>
+            
+            <cb n="2"/>
+               
+            <gap reason="omitted"/>
+               
+            </list>
+            
+         </div>
+            
+         <gap reason="omitted"/>
+         
+      </back>
+  </text>
+</TEI>
